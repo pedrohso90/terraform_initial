@@ -1,6 +1,6 @@
 resource "aws_security_group" "sg-menino-do-rappi" {
   name          = "menino-do-rappi"
-  vpc_id        = "vpc-07cde928a6e7d7800"
+  vpc_id        = "vpc-01798bf5a9f25f031"
 
   ingress {
     protocol    = "tcp"
