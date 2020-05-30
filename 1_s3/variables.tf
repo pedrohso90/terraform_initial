@@ -3,9 +3,9 @@ variable "region" {
 }
 
 variable "tags" {
-  default  = {
-    Name   = "menino-do-rappi"
-    Menino = "rappi"
-    Top    = "tier"
+  default = {
+    Name        = "terraform-initials"
+    Version     = "v1"
+    Environment = "dev"
   }
 }

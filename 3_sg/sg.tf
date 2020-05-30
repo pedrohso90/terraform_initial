@@ -1,6 +1,6 @@
-resource "aws_security_group" "sg-menino-do-rappi" {
-  name          = "menino-do-rappi"
-  vpc_id        = "vpc-01798bf5a9f25f031"
+resource "aws_security_group" "sg-terraform-initials" {
+  name          = "terraform-initials"
+  vpc_id        = ""
 
   ingress {
     protocol    = "tcp"

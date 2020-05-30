@@ -1,7 +1,7 @@
 output "ip" {
-  value = aws_instance.menino_do_rappi.private_ip
+  value = aws_instance.terraform_initials.private_ip
 }
 
 output "eip" {
-  value = aws_eip.menino_do_rappi.public_ip
+  value = aws_eip.terraform_initials.public_ip
 }

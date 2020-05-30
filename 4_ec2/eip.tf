@@ -1,5 +1,5 @@
-resource "aws_eip" "menino_do_rappi" {
+resource "aws_eip" "terraform_initials" {
   vpc        = true
   tags       = var.tags
-  instance   = aws_instance.menino_do_rappi.id
+  instance   = aws_instance.terraform_initials.id
 }

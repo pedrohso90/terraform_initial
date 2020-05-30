@@ -1,5 +1,5 @@
-resource "aws_key_pair" "menino_do_rappi" {
-  key_name   = "menino-do-rappi"
-  public_key = file("/home/tqi_phsoliveira/.ssh/id_rsa.pub")
+resource "aws_key_pair" "terraform_initials" {
+  key_name   = "terraform-initials"
+  public_key = file("$HOME/.ssh/id_rsa.pub")
   tags       = var.tags
 }
